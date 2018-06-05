@@ -1,0 +1,14 @@
+phraseapp:
+  access_token: e493292217938bc9410e73a4470b581866514d78771c4a71e883f0a32e1c29a2
+  project_id: 9b6ce10f0f904584e5c74fcd8505b534
+  push:
+    sources:
+    - file: /Users/kayfeng/Desktop/Test/app-demo/en-US.lproj/Localizable.strings
+      params:
+        file_format: strings
+        locale_id: en-US
+  pull:
+    targets:
+    - file: /Users/kayfeng/Desktop/Test/app-demo/<locale_code>.lproj/Loclizable.strings
+      params:
+        file_format: strings
